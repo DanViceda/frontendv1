@@ -1,0 +1,12 @@
+To setup an github or push a existing folder to the repository
+
+First is put the git config --global user.name and user.email
+After you can use the remote origin on the repository
+Setup the branch
+And push the origin
+
+and it will ask about the github account
+
+username = DanViceda
+passowrd = (the token generated on github)
+
