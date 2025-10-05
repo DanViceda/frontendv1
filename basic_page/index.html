@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "author" content = "Danniella Mae Viceda">
     <meta name = "description" content = "This is a basic webpage for Project">
-    <link rel="stylesheet" href="style.css">
-    <title>Project 2 - Basic Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Project 2 & 3 - Basic Page || Personal Portfolio</title>
 </head>
 <body>
     <header> <!-- LOGO AND NAVIGATION-->
-        <p>Viceda</p>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="contacts.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="navigation">
+            <h1>Viceda</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./articles.html">Articles</a></li>
+                    <li><a href="./contacts.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </div>
+
+        <div class="intro">
+            <h2>Frontend Developer</h2>
+            <p>html only with proper structure, no styling</p>
+        </div>
     </header>
 
     <main>
@@ -26,12 +33,15 @@
             <h2>Projects</h2>
 
             <div class="projects-links">
-                <ul><a href="">Curriculim Vitae</a></ul>
-                <ul><a href="">Calculator</a></ul>
-                <ul><a href="">Quiz App</a></ul>
-                <ul><a href="">Countdown Timer</a></ul>
+                <ul>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Projects</a></li>
+                </ul>
             </div>
         </aside>
+
         <section class="work-experience">
             <h2>Work Experience</h2>
 
@@ -48,7 +58,7 @@
             </div>
         </section>
 
-        <aside class="right-aside">
+        <aside id="right-aside">
             <h2>Education</h2>
             <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organize 30 sessions</p>
             <p>Course I took: </p>
@@ -63,24 +73,27 @@
         <article class="reviews">
             <h2>Reviews from my Teachers</h2>
 
-            <div class="review">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloribus?</p>
-                <i>- teacher</i>
-            </div>
+            <div class="reviews-boxes">
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloribus?</p>
+                    <i>- Teacher 1</i>
+                </div>
 
-            <div class="review">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloribus?</p>
-                <i>- teacher</i>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloribus?</p>
+                    <i>- Teacher 2</i>
+                </div>
+
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloribus?</p>
+                    <i>- Teacher 3</i>
+                </div>
             </div>
-         
-            <div class="review">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, doloribus?</p>
-                <i>- teacher</i>
-            </div>            
         </article>
 
+
     </main>
-    
+
     <footer>
         <p>Author: Danniella Mae Viceda</p>
         <p><a href="mailto:hehe@example.com">hehe@example.com</a></p>

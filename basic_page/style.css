@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navigation h1{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+nav ul li{
+    padding-left: 5px;
+    margin-right: 20px;
+    list-style: none;
+    display: inline;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.intro{
+    align-self: center;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.intro h2{
+    font-size: 50px;
+}
+
+.intro p{
+    text-align: center;
+}
+
+/*Main Content*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5%;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-height: auto;
+}
+
+#left-aside{
+    flex: 1;
+    flex-basis: 200px;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+#left-aside h2{
+    padding-left: 20px;
+}
+
+.projects-links ul{
+    padding: 0;
+    margin: 0;
+
+}
+.projects-links ul li{
+    list-style: none;
+    border-bottom: 2px solid black;
+    padding: 15px 25px;
+}
+
+.projects-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*SECTION*/
+.work-experience{
+    flex: 2;
+    border-right: 2px solid black;
+    flex-basis: 300px;
+    padding: 20px;
+}
+
+.work{
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+
+/*RIGHT SIDE*/
+#right-aside{
+    flex: 3;
+    flex-basis: 200px;
+    padding: 20px;
+}
+
+.reviews {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviews h2 {
+    text-align: center;
+    color: #2c7a2c;
+    margin-bottom: 10px;
+}
+
+.reviews-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.review {
+    flex: 1;
+    background: #f4f4f4;
+    border: 2px solid black;
+    padding: 15px;
+    min-width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+    background: #e8f5e9;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .reviews-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review {
+        width: 90%;
+    }
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration : none;
+    color: black;
+}
