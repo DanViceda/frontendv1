@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-padding-top: 70px;
+}
+
+body {
+    margin: 0;
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+main {
+    background-color: #fff;
+    width: 800px;
+    border-radius: 2px;
+    padding: 40px;
+    border: 3px solid rgb(19, 16, 16);
+}
+
+/* Header*/
+hr {
+    border: 0;
+    height: 4px;
+    background: #000;
+    width: 200%;
+    margin-bottom: 10%;
+}
+
+.header-content {
+    display: inline-block;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header-content .role {
+    color: rgb(44, 122, 44);
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+#contacts ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#contacts ul li {
+    margin-bottom: 10px;
+}
+
+#contacts ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Section Titles */
+#skills h4,
+#education h4,
+#work-experience h4,
+#socials h4 {
+    font-weight: 500;
+    color: rgb(44, 122, 44);
+    margin-top: 30px;
+
+}
+
+/* Sub Headings */
+#education h3,
+#work-experience h3 {
+    color: rgb(66, 126, 199);
+}
+
+
+/* Section Spacing */
+#education,
+#work-experience,
+#socials,
+#skills {
+    margin-top: 5px;
+}
+
+/* Links */
+a:hover {
+    color: rgb(66, 126, 199);
+}
