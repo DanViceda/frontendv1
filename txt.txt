@@ -7,6 +7,6 @@ And push the origin
 
 and it will ask about the github account
 
-username = DanViceda
+username = 
 passowrd = (the token generated on github)
 
